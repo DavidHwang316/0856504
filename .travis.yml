@@ -7,5 +7,5 @@ jobs:
     - stage: Maven
       script: mvn test -B
     - stage: Gradle
-      script: ./gradlew test
+      script: gradle test
    
