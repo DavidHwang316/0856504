@@ -2,4 +2,4 @@ language: java
 jdk:
  - openjdk11
 install: cd Lab4_0856504 && mvn install -DskipTests=true -Dmaven.javadoc.skip=true
-script: mvn test
+script: mvn test -B
