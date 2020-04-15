@@ -6,7 +6,6 @@ jobs:
   include:
     - stage: Maven
       script: mvn test -B
-    - stage: test
-      name: MyTest
-      script: cd test && ./PriorityQueueTest
+    - stage: Gradle
+      script: ./gradlew test
    
