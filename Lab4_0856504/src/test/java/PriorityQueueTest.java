@@ -34,7 +34,7 @@ class PriorityQueueTest {
             testQueue.add(random_array[i]);
         }
         for(int i=0; i<5; i++) {
-            assertEquals(correct_array[i], testQueue.poll());
+            assertEquals(correct_array[i]+1, testQueue.poll());
         }
     }
 
