@@ -1,5 +1,5 @@
 language: java
 jdk:
  - openjdk8
-install: cd Lab2_0856504 && mvn install -DskipTests=true -Dmaven.javadoc.skip=true
+install: cd Lab4_0856504 && mvn install -DskipTests=true -Dmaven.javadoc.skip=true
 script: mvn test
