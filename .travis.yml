@@ -2,9 +2,10 @@ language: java
 jdk:
  - openjdk11
 install: cd Lab4_0856504 && mvn install -DskipTests=true -Dmaven.javadoc.skip=true
-script: mvn test -B
 jobs:
   include:
+    - stage: Maven
+      script: mvn test -B
     - stage: test
       name: MyTest
       script: cd test && ./PriorityQueueTest
