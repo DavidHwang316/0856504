@@ -2,10 +2,5 @@ language: java
 jdk:
  - openjdk11
 install: cd Lab4_0856504 && mvn install -DskipTests=true -Dmaven.javadoc.skip=true
-jobs:
-  include:
-    - stage: Maven
-      script: mvn test -B
-    - stage: Gradle
-      script: gradle test
-   
+script: mvn test -B
+
