@@ -1,6 +1,6 @@
-#Software Testing 2020 Lab4 0856504
-##Travis CI's build mark
-* Pass all testcases
-https://travis-ci.org/github/DavidHwang316/0856504/builds/675560762
-* Fail
-https://travis-ci.org/github/DavidHwang316/0856504/builds/675562476
+# Software Testing 2020 Lab4 0856504 <br>
+## Travis CI's build mark <br>
+* Pass all testcases <br>
+https://travis-ci.org/github/DavidHwang316/0856504/builds/675560762 <br>
+* Fail <br>
+https://travis-ci.org/github/DavidHwang316/0856504/builds/675562476 <br>
