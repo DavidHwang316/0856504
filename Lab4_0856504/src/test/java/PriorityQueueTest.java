@@ -31,7 +31,7 @@ class PriorityQueueTest {
     void NormalTest(int [] random_array, int [] correct_array){
         PriorityQueue testQueue = new PriorityQueue();
         for(int i=0; i<5; i++){
-            testQueue.add(random_array[i]+1);
+            testQueue.add(random_array[i]);
         }
         for(int i=0; i<5; i++) {
             assertEquals(correct_array[i], testQueue.poll());
